@@ -1,0 +1,16 @@
+var getValue = function (condition) {
+ if (condition) {
+     let value = "Codingeek";
+        return value;
+    }
+    else {
+        return value;
+   }
+}
+var value1 = getValue(true);
+var value2 = getValue(false);
+
+console.log(value1); // Value returned is "Codingeek".
+console.log(value2); // ReferenceError: value is not defined is shown.
+
+

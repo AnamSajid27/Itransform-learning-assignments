@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> HTML FORMS</title>
+</head>
+<body>
+  <h1> Create a link of an image: <img src="C:/Users/DELL/Downloads/image/emoji.jpg" width="40" height="40" border="2"> </h1>
+  <h1> No border around the image, but still a link : <img src="C:/Users/DELL/Downloads/image/emoji.jpg" width="40" height="40"></h1>
+</body>
+</html>
+
+

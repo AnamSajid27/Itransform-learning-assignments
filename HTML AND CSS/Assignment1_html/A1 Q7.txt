@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> HTML FORMS</title>
+</head>
+<body>
+
+  <form>  
+    <input type="checkbox" id="A" name="I have a Bike"/>  
+    <label for="A">I have a bike </label>  <br>
+
+
+    <input type="checkbox" id="B" name="I have a Bike"/>  
+    <label for="B">I have a car </label>  
+  
+
+
+    </form>  
+
+</body>
+</html>

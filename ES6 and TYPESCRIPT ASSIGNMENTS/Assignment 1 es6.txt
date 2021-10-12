@@ -1,0 +1,173 @@
+//1
+const a=10;
+console.log(a);
+a=20;
+console.log(a);
+
+
+//2
+var a=1;
+var b=20
+if(a==1){
+    let a=70;
+    let b=50;
+    console.log(a);
+    console.log(b);
+}
+console.log(a);
+    console.log(b);
+
+//3
+var Order = {
+    id: 1,
+    title:"ANAM",
+    price:500,
+    getorder(value){ return value },
+    printorder(val){return val}};
+    var p=Object.assign({},Order);
+    p.id=5;
+    p.title="ASH";
+    p.getorder(5);
+    p.printorder(7);
+    document.write(p);*/
+    /*let person = {
+      firstName: 'John',
+      lastName: 'Doe',
+      address: {
+          street: 'North 1st street',
+          city: 'San Jose',
+          state: 'CA',
+          country: 'USA'
+      }
+  };
+
+
+
+//4
+
+
+let someJasonArray = ["tom","heena","ANAM"];
+    var len=someJasonArray.length,output=[];
+
+    
+       
+     for(var i=0;i<len;i++)
+     {
+         output.push(someJasonArray[i],someJasonArray[i].length);
+       
+     }
+        
+    console.log(output);
+        
+//5(a)
+let add = function(value=10){
+    console.log(value+10);
+};
+add();
+
+//b
+let userFriend=function (username,...a){
+     console.log("username: "+ username);
+     for(let i in a)
+     {
+         console.log("friends name: "+a[i]);
+         
+     }
+ }
+ var username="sweden";
+ var a=["heena","aliya","rahul"];
+ userFriend(username,a);
+
+//c
+let printCapitalName=function (...a){
+     
+     for(let i in a)
+     {
+         console.log(a[i].toUpperCase());
+         
+     }
+ }
+
+ var a=["heena,aliya,rahul"];
+ printCapitalName(...a);  //spread operator
+
+ //6
+var names = 'ella ';
+const deskno =  143 ;
+var laptopModel = 'hp' ;
+
+var  message = `Hello SYSNET, My name is ${names} ,Laptop Model is ${laptopModel} and Desk Number is ${deskno}.
+There is some problem raising in the laptop please resolve the issue.
+
+Thanks and Regards
+cinderella`;
+
+console.log(message);
+
+
+
+
+
+
+       
+//7 [a]
+var a=["an","bh","gy","jjhg"];
+var b=["gy"];
+
+let map={};
+a.forEach(i=> map[i]=false);
+b.forEach(i=> map[i]===false&&(map[i]=true));
+let jasonArray=Object.keys(map).map(k =>({name:k,matched:map[k]}
+));
+ console.log(jasonArray);
+
+[b]
+et org = {
+           name:'ella',
+           address:
+            {city:'AP',pincode:516001}
+          };
+let {name,address}= org;
+
+console.log(address.pincode);
+
+//8
+
+class Account
+{
+    constructor(id,name,balance)
+    {
+        this.id = id;
+        this.name = name;
+        this.balance = balance; 
+    }
+}
+class SavingsAccount extends Account{
+    constructor(id,name,balance,interest)
+    {
+        super(id,name,balance);
+        this.interest = interest;
+    }
+    totalBalance = () => { this.balance += this.interest;
+        console.log(this.balance);};
+}
+class CurrentAccount extends Account{
+    constructor(id,name,balance,cashCredit)
+    {
+        super(id,name,balance);
+        this.cashCredit = cashCredit;
+    }
+    totalBalance = () => { this.balance += this.cashCredit;
+        console.log(this.balance);};
+}
+
+let S1 = new SavingsAccount(31,"ella",200,500);
+let S2 = new CurrentAccount(31,"prince",500, 100);
+S1.totalBalance();
+S2.totalBalance();
+
+
+
+
+
+

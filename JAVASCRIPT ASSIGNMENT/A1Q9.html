@@ -1,0 +1,38 @@
+<html>
+<script>
+function alternate(arr1, arr2, n1,
+                    n2, arr3)
+{
+    let i = 0, j = 0, k = 0;
+ 
+   
+    while (i<n1 && j <n2)
+    {
+        arr3[k++] = arr1[i++];
+        arr3[k++] = arr2[j++];
+    }
+ 
+   
+    while (i < n1)
+        arr3[k++] = arr1[i++];
+ 
+   
+    while (j < n2)
+        arr3[k++] = arr2[j++];
+}
+ 
+ 
+    let arr1 = ['a','b','c','d','e','f','g','h','i'];
+    let n1 = arr1.length;
+ 
+    let arr2 = [1,2,3,4,5,6];
+    let n2 = arr2.length;
+ 
+    let arr3 = new Array(n1+n2);
+    alternate(arr1, arr2, n1, n2, arr3);
+ 
+    document.write("array in alteration" + "<br>");
+    for (let i=0; i < n1+n2; i++)
+        document.write(arr3[i] + " ");
+
+</script>

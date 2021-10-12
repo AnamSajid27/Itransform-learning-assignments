@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+a:link {
+  text-decoration: underline;
+
+}
+a:link {
+  background-color: turquoise;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<p><b><a href="http://www.html.com" target="_blank">This is a link </a>
+
+  </body>
+
+
+
+

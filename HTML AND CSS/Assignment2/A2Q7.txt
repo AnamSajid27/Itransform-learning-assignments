@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+p{
+   border-style: solid;
+   border-block-color: red;
+  outline-style: dotted;
+  outline-color: green;
+}
+</style>
+<p><strong>Note:</strong>IE8 supports the outline properties only if the !DOCTYPE is specified.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> HTML FORMS</title>
+</head>
+<body>
+
+  
+    <table style="background-color:teal;">
+      <th>Top</th>
+      </tr>
+      <tr>
+      <td style="background-color: darkslategray;">left</td><td style="background-color: grey;">right</td>
+      </tr>
+      </table>
+
+    </form>  
+
+</body>
+</html>
+
